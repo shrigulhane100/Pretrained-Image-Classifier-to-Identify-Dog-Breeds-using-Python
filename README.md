@@ -114,7 +114,7 @@ C:.
 
 I used OpenCV's implementation of [Haar feature-based cascade classifiers](https://docs.opencv.org/master/d7/d8b/tutorial_py_face_detection.html) to detect human faces in images.
 
-![pic_readme1](images/pic_readme1.png)
+![pic_readme1](images/pic_readme1.jpg)
 
 
 <a name="classify_dog_breeds"></a>
