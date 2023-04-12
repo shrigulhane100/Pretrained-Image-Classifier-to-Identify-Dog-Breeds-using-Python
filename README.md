@@ -4,7 +4,7 @@ Udacity AI Programming with Python Nanodegree : First Project - Pretrained Image
 
 ![dog_breed_main_pic](images/dog_breed_main_pic.jpg)
 
-The purpose of this project is to use a convolutional neural network (CNN) to predict dog breeds. The pipeline is the evaluation of an image as a dog or a human, then a prediction of which dog breed the dog is, or which dog breed the human most resembles. 
+The purpose of this project is to use a Convolutional Neural Network (CNN) to predict dog breeds. The pipeline involves evaluating an image as either a dog or a human, then making a prediction of which dog breed the dog is, or which dog breed the human most resembles. 
 
 
 ## Table of Contents
@@ -27,7 +27,7 @@ The purpose of this project is to use a convolutional neural network (CNN) to pr
 
 ## Introduction
 
-In the course of this nanodegree from Udacity, as part of the Capstone Project, I created a pipeline that can be used in a web or mobile app to process real images taken by users. Based on a picture of a dog, the algorithm I created can make an assessment about the dog breed. If supplied an image of a human, the code will identify the resembling dog breed.
+In this Udacity nanodegree, I created a pipeline as part of the Capstone Project that can be used in a web or mobile app to process real images taken by users.. Based on an image of a dog, the algorithm I created can make an assessment about the breed. If supplied an image of a human, the code will identify the corresponding dog breed.
 
 <a name="software_requirements"></a>
 
@@ -76,15 +76,6 @@ C:.
 ## Running APP
 
 
-<a name="detect_humans_face"></a>
-
-### Detect Humans Face
-
-I used OpenCV's implementation of [Haar feature-based cascade classifiers](https://docs.opencv.org/master/d7/d8b/tutorial_py_face_detection.html) to detect human faces in images.
-
-![pic_readme1](images/pic_readme1.jpg)
-
-
 <a name="classify_dog_breeds"></a>
 
 ### Classify Dog Breeds
@@ -108,17 +99,13 @@ I used transfer learning to create a convolutional neural network (CNN). I used 
 
 ## Project Results
 
-In summary, the CNN model I created with transfer learning far surpassed the CNN created from scratch in terms of performance. 
-The accuracy of the InceptionV3-model (pre-trained on ImageNet) reached 79.55% while the CNN from scratch was about 5%.
-The ImageNet dataset contains more than one million training images on which the InceptionV3 model was trained. This results in an extreme increase in performance compared to CNN from scratch. 
-The accuracy of 5% could possibly have been increased again if data augmentation had been used in the model training.
-When tested on new images, the CNN model with transfer learning performed as I expected, not perfect but good enough. 
+To summarize, the transfer learning CNN model that I built outperformed the CNN that I created from scratch. The pre-trained InceptionV3-model, which was trained on over a million images from the ImageNet dataset, achieved an accuracy of 80%, while the CNN from scratch only achieved 5%. This significant difference in performance can be attributed to the use of a vast amount of pre-existing training data that went into the pre-trained model. Had I used data augmentation during the training process, I could have potentially improved the accuracy of the CNN from scratch. When tested using new images, the transfer learning CNN performed sufficiently well, though not perfectly. 
 
 <a name="authors"></a>
 
 ## Authors
 
-+ [Shriyash Gulhane](https://github.com/MFuchs1989)
++ [Shriyash Gulhane](https://github.com/shrigulhane100)
 
 <a name="motivation"></a>
 
@@ -132,7 +119,7 @@ Udacity has given students the freedom to choose the area in which they would li
 + [Education](https://docs.google.com/document/d/1vjerjRQnWs1kLbZagDYT6rNqiwAG23Yj45oUY88IAxI/pub)
 + [Investment and Trading](https://docs.google.com/document/d/1ycGeb1QYKATG6jvz74SAMqxrlek9Ed4RYrzWNhWS-0Q/pub)
 
-As I am personally very interested in Deep Learning and have already completed my Nanodegree in Computer Vision via Udacity, I found it exciting to complete my capstone project in this area as well. 
+As I am personally very interested in Deep Learning and have already completed my Nanodegree in AI via Udacity, I found it exciting to complete my capstone project in this area as well. 
 So I choose to use Convolutional Neural Networks to Identify Dog Breeds.
 
 <a name="acknowledgement"></a>
