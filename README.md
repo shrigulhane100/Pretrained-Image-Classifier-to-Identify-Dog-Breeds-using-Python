@@ -97,7 +97,7 @@ I used transfer learning to create a convolutional neural network (CNN). I used 
 
 ## Project Results
 
-To summarize, the transfer learning CNN model that I built outperformed the CNN that I created from scratch. The pre-trained InceptionV3-model, which was trained on over a million images from the ImageNet dataset, achieved an accuracy of 80%, while the CNN from scratch only achieved 5%. This significant difference in performance can be attributed to the use of a vast amount of pre-existing training data that went into the pre-trained model. Had I used data augmentation during the training process, I could have potentially improved the accuracy of the CNN from scratch. When tested using new images, the transfer learning CNN performed sufficiently well, though not perfectly. 
+To summarize, the transfer learning CNN model that I built outperformed the CNN that I created from scratch. The pre-trained VGA-model, which was trained on over a million images from the ImageNet dataset, achieved an accuracy of 80%, while the CNN from scratch only achieved 5%. This significant difference in performance can be attributed to the use of a vast amount of pre-existing training data that went into the pre-trained model. The classifier was able to correctly identify the breed of dog in 85% of the images in the test set.
 
 <a name="authors"></a>
 
