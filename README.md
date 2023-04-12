@@ -42,8 +42,7 @@ Required libraries:
 + Numpy
 + Pandas
 + Matplotlib
-+ OpenCV
-
++ 
 Please run ```pip install -r requirements.txt```
 
 
