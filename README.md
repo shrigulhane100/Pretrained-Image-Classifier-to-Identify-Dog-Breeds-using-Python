@@ -52,7 +52,7 @@ Please run ```pip install -r requirements.txt```
 ## Folder Structure
 
 ```
-C:.
+C:
 
 ```
 
@@ -74,6 +74,12 @@ C:.
 
 ## Running APP
 
++ To use the image classifier, you can run the predict_breed.py script. This script takes a path to an image file as input, and outputs the predicted breed of dog in the image.
+
++ python predict_breed.py /path/to/image/file You can also run the test_classifier.py script to test the accuracy of the classifier on a test set of images.
+
++ python test_classifier.py Dataset
+
 
 <a name="classify_dog_breeds"></a>
 
@@ -87,12 +93,7 @@ I used transfer learning to create a convolutional neural network (CNN). I used 
 
 ![pic_readme3](images/pic_readme3.png)
 
-+ If a human is recognised in the image provided, the algorithm returns the resembling dog breed:
 
-![pic_readme4](images/pic_readme4.png)
-
-
-+ If neither a human nor a dog can be seen in the picture, the algorithm returns the following error message: "Error: Please input an image of a human or a dog."
 
 <a name="project_results"></a>
 
