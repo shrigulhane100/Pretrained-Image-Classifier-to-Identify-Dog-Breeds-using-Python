@@ -1,5 +1,5 @@
 # Pretrained-Image-Classifier-to-Identify-Dog-Breeds-using-Python
-Udacity AI Programming with Python Nanodegree : First Project - Pretrained Image Classifier to Identify Dog Breeds using Python
+Pretrained Image Classifier to Identify Dog Breeds using Python
 
 
 ![dog_breed_main_pic](images/dog_breed_main_pic.jpg)
